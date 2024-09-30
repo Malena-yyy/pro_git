@@ -3,7 +3,7 @@
 - [Descrição curta](#Descricão-curta)
 - [Pré-Requisitos](#Pré-Requisitos)
 - [Instalção](#Instalação)
-- [Uso](#Uso)
+- [Exemplo-de-Uso](#Exemplo-de-Uso)
 - [Contato](#Contato)
 
 ## Descrição curta
@@ -31,6 +31,23 @@ cd prog
 pip install -e .
 
 ```
+## Exemplo de Uso
+from calculadora_tipos import CalculadoraBasica, CalculadoraCientifica
+
+calc_basica = CalculadoraBasica()
+calc_cientifica = CalculadoraCientifica()
+
+print(calc_basica.soma(5, 3))         
+print(calc_basica.subtracao(10, 2))   
+print(calc_basica.multiplicacao(6, 7))
+print(calc_basica.divisao(12, 4))    
+
+print(calc_cientifica.quadrado(4, 5))  
+print(calc_cientifica.raiz(16, 25))    
+print(calc_cientifica.fatorial(5, 3))  
+
+
+
 ## Contato
-Conhece mais sobre esse desenvolvedor no link abaixo
+Conhece mais sobre esse desenvolvedor no link 
 https://www.instagram.com/_malena.milani?igsh=MWNoYWV5MjBoYXIwYw==
